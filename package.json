@@ -4,8 +4,7 @@
   "description": "TypeScript implementation of the ChineseNumber object",
   "main": "./dist/obj.js",
   "scripts": {
-    "postinstall": "npm i .",
-    "build": "tsc",
+    "build": "npm i .; tsc",
     "pretest": "npm run build",
     "test": "node tests/test1.js"
   },
