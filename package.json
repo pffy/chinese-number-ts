@@ -5,7 +5,7 @@
   "main": "./dist/obj.js",
   "scripts": {
     "build": "tsc",
-    "pretest": "npm run build",
+    "pretest": "npm i .; npm run build",
     "test": "node tests/test1.js"
   },
   "repository": {
