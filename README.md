@@ -48,7 +48,7 @@ console.log(JSON.parse(num));
 */
 ```
 
-Or, you can:
+Or, you can get single elements:
 ```javascript
 const num = new ChineseNumber(88888888);
 
